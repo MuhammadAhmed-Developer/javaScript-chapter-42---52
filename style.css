@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text{
+    color: blue;
+}
+.text1{
+    color: aquamarine;
+}
+.hidden{
+    display: none;
+}
+.big{
+    font-size: 3rem;
+}
