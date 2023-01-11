@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 43-52</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- Topic -->
+    <section class="p-5">
+        <div class="container border-bottom border-2">
+            <div class="row text-center">
+                <h1>JavaScript Chapter 49 reading field values</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo input field -->
+    <section>
+        <div class="container">
+            <div class="row text-center">
+                <h1>Demo</h1>
+                <div class="p-5 border border-2">
+                    <form onsubmit="checkAdress()">
+                        Email:
+                        <input type="text" id="emailField">
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- output -->
+    <section>
+        <div class="container p-5">
+            <div class="row text-center">
+                <h1>OUTPUT</h1>
+                <div class="p-5 border border-2" id="output"></div>
+            </div>
+        </div>
+    </section>
+    <hr>
+<!-- chapter no 50 -->
+    <section>
+        <div class="container">
+            <div class="row text-center">
+                <h1>Chapter no 50</h1>
+                <form action="">
+                    Zip:
+                    <input type="text" id="Zipcode" onblur="fillCity()"><br><br>
+
+                    City:
+                    <input type="text" id="city">
+                </form>
+            </div>
+        </div>
+    </section>
+<hr>
+    <!-- chapter no 51 -->
+
+    <section>
+        <div class="container p-5">
+            <div class="row text-center">
+                <h1>Chapter NO 51</h1>
+                <div id="paragraph">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sequi, architecto corrupti reiciendis voluptates quibusdam accusantium, quaerat enim laboriosam quae consequatur. Ipsum ipsa ut culpa delectus nesciunt, commodi sit magnam! <a href="javascript:void(0)" onclick="expandME()">Click for more</a>
+                </p>
+            </div>
+               
+            </div>
+        </div>
+    </section>
+<hr>
+
+<section>
+    <div class="container p-5">
+        <div class="row text-center">
+            <h1>Chapter No 52</h1>
+
+            <div class="border border-1"> 
+                <p class="text" id="title" onclick="change()">THis is an Apple</p>
+                <p class="text1" id="title2" onclick="change1()">This is apple</p>
+                <img src="./images/white typing img.png" alt="" class="images" id="image" onclick="hide()">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+</div>
+</br>
+</br>
+<h1  id="heading"  onmouseover="this.style.color='red'" onmouseout="this.style.color='green'">Heading no One</h1>
+<button onclick="document.getElementById('heading').style.color='black'">Reset color</button>
+</br>
+</br>
+</br>
+<div class="text-center">
+<label for="">Email: <input type="email" onFocus="this.style.backgroundColor='pink'" onblur="this.style.backgroundColor='gray'"></label></div>
+</br>
+</br>
+</br>
+
+<img src="./images/337.jpg" alt="" width="10%" onMouseover='src="./images/342.jpg"' onmouseout='src="./images/337.jpg"'>
+
+<div class="fs-1 fw-bolder text-primary">
+<hr> 
+<hr> 
+</div>
+
+
+<!-- bootstrap javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- external js -->
+<script src="./script.js"></script>
+</body>
+</html>
